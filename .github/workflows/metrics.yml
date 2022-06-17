@@ -15,3 +15,10 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          user: Mawdac
+          template: terminal
+          base: header, activity
+          config_timezone: America/New_York
+          config_presets: "@ocean-blue"
