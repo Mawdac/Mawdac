@@ -18,6 +18,7 @@ jobs:
 
           # Options
           user: Mawdac
-          template: terminal
           base: header, activity
+          template: terminal
           config_timezone: America/New_York
+          filename: metrics.terminal.svg
