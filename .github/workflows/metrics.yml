@@ -19,8 +19,8 @@ jobs:
           # Options
           user: Mawdac
           base: header, activity, metadata
-          template: terminal
+          template: classic
+          config_presets: "@lunar-red"
           config_timezone: America/New_York
-          filename: metrics.terminal.svg
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
