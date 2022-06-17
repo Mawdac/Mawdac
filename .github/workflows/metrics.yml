@@ -18,7 +18,9 @@ jobs:
 
           # Options
           user: Mawdac
-          base: header, activity
+          base: header, activity, metadata
           template: terminal
           config_timezone: America/New_York
           filename: metrics.terminal.svg
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
