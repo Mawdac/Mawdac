@@ -20,7 +20,7 @@ jobs:
           user: Mawdac
           base: header, activity, metadata
           template: classic
-          config_presets: "@lunar-red"
+          config_presets: "@ocean-blue"
           config_timezone: America/New_York
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
