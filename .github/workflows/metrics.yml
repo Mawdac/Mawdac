@@ -21,4 +21,3 @@ jobs:
           template: terminal
           base: header, activity
           config_timezone: America/New_York
-          config_presets: "@ocean-blue"
