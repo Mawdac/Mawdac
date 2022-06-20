@@ -5,7 +5,7 @@ on:
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+  push: {branches: ["main"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -18,7 +18,7 @@ jobs:
 
           # Options
           user: Mawdac
-          base: header, activity, metadata
+          base: header
           template: classic
           config_presets: "@ocean-blue"
           config_timezone: America/New_York
